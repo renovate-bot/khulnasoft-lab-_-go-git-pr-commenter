@@ -1,5 +1,5 @@
-github.com/argonsecurity/go-environments v0.1.44 h1:iyQfMp6QS9qwjYsWr4N+ZMiwA5eKfSa/QHsM6pgG+2I=
-github.com/argonsecurity/go-environments v0.1.44/go.mod h1:gf8wUiuP2DU6NN5nvfBy3h48R2JaPB7HAMag/DC0JUo=
+github.com/argonsecurity/go-environments v0.1.68 h1:n7qymzAD29Y9n9LyCP6b1P7UOfopwQOiH0i8AATA72U=
+github.com/argonsecurity/go-environments v0.1.68/go.mod h1:gf8wUiuP2DU6NN5nvfBy3h48R2JaPB7HAMag/DC0JUo=
 github.com/cpuguy83/go-md2man/v2 v2.0.2 h1:p1EgwI/C7NhT0JmVkwCD2ZBK8j4aeHQX2pMHHBfMQ6w=
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

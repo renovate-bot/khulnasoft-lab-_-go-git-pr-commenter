@@ -3,7 +3,7 @@ module github.com/khulnasoft-lab/go-git-pr-commenter
 go 1.18
 
 require (
-	github.com/argonsecurity/go-environments v0.1.44
+	github.com/argonsecurity/go-environments v0.1.68
 	github.com/google/go-github/v44 v44.1.0
 	github.com/samber/lo v1.37.0
 	github.com/urfave/cli/v2 v2.25.7
