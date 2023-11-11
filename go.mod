@@ -3,7 +3,7 @@ module github.com/khulnasoft-lab/go-git-pr-commenter
 go 1.18
 
 require (
-	github.com/argonsecurity/go-environments v0.1.44
+	github.com/argonsecurity/go-environments v0.1.68
 	github.com/google/go-github/v44 v44.1.0
 	github.com/google/go-github/v56 v56.0.0
 	github.com/samber/lo v1.37.0
@@ -21,7 +21,7 @@ require (
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/exp v0.0.0-20220613132600-b0d781184e0d // indirect
-	golang.org/x/net v0.16.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 )
