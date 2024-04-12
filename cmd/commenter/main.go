@@ -1,10 +1,9 @@
 package main
 
 import (
+	"github.com/khulnasoft-lab/go-git-pr-commenter/pkg/app"
 	"log"
 	"os"
-
-	"github.com/khulnasoft-lab/go-git-pr-commenter/pkg/app"
 )
 
 func main() {
