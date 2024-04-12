@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/google/go-github/v44/github"
 	"github.com/khulnasoft-lab/go-git-pr-commenter/pkg/commenter"
+	"github.com/google/go-github/v44/github"
 	"github.com/samber/lo"
 )
 
@@ -218,7 +218,7 @@ func (c *Github) writeCommentIfRequired(prComment *github.PullRequestComment) er
 
 // WriteMultiLineComment writes a multiline review on a file in the github PR
 func (c *Github) WriteMultiLineComment(file, comment string, startLine, endLine int) error {
-	if startLine == 0 || startLine == commenter.FIRST_AVAILABLE_LINE {
+	if startLine == 0 {
 		startLine = 1
 	}
 	if endLine == 0 {
@@ -260,6 +260,6 @@ func (c *Github) WriteLineComment(file, comment string, line int) error {
 	return c.writeCommentIfRequired(prComment)
 }
 
-func (c *Github) RemovePreviousKhulnasoftComments(_ string) error {
+func (c *Github) RemovePreviousAquaComments(_ string) error {
 	return nil
 }
