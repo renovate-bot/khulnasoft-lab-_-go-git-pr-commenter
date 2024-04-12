@@ -1,4 +1,7 @@
-# go-git-pr-commenter
+# Go Github PR Commenter
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/go-github-pr-commenter)](https://goreportcard.com/report/github.com/khulnasoft-lab/go-github-pr-commenter) 
+[![Github Release](https://img.shields.io/github/release/khulnasoft-lab/go-github-pr-commenter.svg)](https://github.com/khulnasoft-lab/go-github-pr-commenter/releases)
 
 command line tool and package based for git comments
 
