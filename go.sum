@@ -1,5 +1,5 @@
-github.com/argonsecurity/go-environments v0.1.68 h1:n7qymzAD29Y9n9LyCP6b1P7UOfopwQOiH0i8AATA72U=
-github.com/argonsecurity/go-environments v0.1.68/go.mod h1:gf8wUiuP2DU6NN5nvfBy3h48R2JaPB7HAMag/DC0JUo=
+github.com/argonsecurity/go-environments v0.1.44 h1:iyQfMp6QS9qwjYsWr4N+ZMiwA5eKfSa/QHsM6pgG+2I=
+github.com/argonsecurity/go-environments v0.1.44/go.mod h1:gf8wUiuP2DU6NN5nvfBy3h48R2JaPB7HAMag/DC0JUo=
 github.com/cpuguy83/go-md2man/v2 v2.0.2 h1:p1EgwI/C7NhT0JmVkwCD2ZBK8j4aeHQX2pMHHBfMQ6w=
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -10,10 +10,10 @@ github.com/golang/protobuf v1.5.3 h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg
 github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=
 github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
-github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
+github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
+github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/google/go-github/v44 v44.1.0 h1:shWPaufgdhr+Ad4eo/pZv9ORTxFpsxPEPEuuXAKIQGA=
 github.com/google/go-github/v44 v44.1.0/go.mod h1:iWn00mWcP6PRWHhXm0zuFJ8wbEjE5AGO5D5HXYM4zgw=
-github.com/google/go-github/v59 v59.0.0/go.mod h1:rJU4R0rQHFVFDOkqGWxfLNo6vEk4dv40oDjhV/gH6wM=
 github.com/google/go-querystring v1.1.0 h1:AnCroh3fv4ZBgVIf1Iwtovgjaw/GiKJo8M8yD/fhyJ8=
 github.com/google/go-querystring v1.1.0/go.mod h1:Kcdr2DB4koayq7X8pmAG4sNG59So17icRSOU623lUBU=
 github.com/otiai10/copy v1.7.0 h1:hVoPiN+t+7d2nzzwMiDHPSOogsWAStewq3TwU05+clE=

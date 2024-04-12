@@ -3,9 +3,8 @@ module github.com/khulnasoft-lab/go-git-pr-commenter
 go 1.18
 
 require (
-	github.com/argonsecurity/go-environments v0.1.68
+	github.com/argonsecurity/go-environments v0.1.44
 	github.com/google/go-github/v44 v44.1.0
-	github.com/google/go-github/v59 v59.0.0
 	github.com/samber/lo v1.38.1
 	github.com/urfave/cli/v2 v2.25.7
 	golang.org/x/oauth2 v0.16.0
@@ -14,6 +13,7 @@ require (
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
