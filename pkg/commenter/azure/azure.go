@@ -155,7 +155,7 @@ func (c *Azure) WriteLineComment(_, _ string, _ int) error {
 	return nil
 }
 
-func (c *Azure) RemovePreviousAquaComments(msg string) error {
+func (c *Azure) RemovePreviousKhulnasoftComments(msg string) error {
 
 	resp, err := utils.GetComments(fmt.Sprintf("%s%s/_apis/git/repositories/%s/pullRequests/%s/threads?api-version=6.0",
 		c.ApiUrl, c.Project, c.RepoID, c.PrNumber), map[string]string{"Authorization": "Basic " + base64.StdEncoding.EncodeToString([]byte(":"+c.Token))})
