@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/khulnasoft-lab/go-git-pr-commenter/pkg/commenter/github"
 	"github.com/argonsecurity/go-environments/enums"
 	"github.com/argonsecurity/go-environments/environments/jenkins"
 	env_utils "github.com/argonsecurity/go-environments/environments/utils"
-	"github.com/khulnasoft-lab/go-git-pr-commenter/pkg/commenter/github"
 
 	"github.com/khulnasoft-lab/go-git-pr-commenter/pkg/commenter"
 	"github.com/khulnasoft-lab/go-git-pr-commenter/pkg/commenter/bitbucket"
@@ -20,7 +20,8 @@ import (
 
 func NewJenkins(baseRef string) (commenter.Repository, error) {
 	cloneUrl, _ := utils.GetRepositoryCloneURL()
-	scmSource, scmApiUrl := jenkins.GetRepositorySource(cloneUrl)
+	sanitizedCloneUrl := env_utils.StripCredentialsFromUrl(cloneUrl)
+	scmSource, scmApiUrl := jenkins.GetRepositorySource(sanitizedCloneUrl)
 
 	if _, exists := bitbucketutils.GetBitbucketPayload(); strings.Contains(cloneUrl, "bitbucket") || exists {
 		username, ok := os.LookupEnv("USERNAME")
