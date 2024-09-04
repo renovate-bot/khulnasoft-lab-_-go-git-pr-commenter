@@ -7,7 +7,7 @@ require (
 	github.com/google/go-github/v44 v44.1.0
 	github.com/samber/lo v1.37.0
 	github.com/urfave/cli/v2 v2.8.1
-	golang.org/x/oauth2 v0.1.0
+	golang.org/x/oauth2 v0.23.0
 )
 
 require (
